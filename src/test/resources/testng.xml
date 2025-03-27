@@ -9,8 +9,8 @@
 			<!-- <class name="com.demoproject.tests.DummyClass"></class>
 			<class name="com.demoproject.tests.DummyClass2"></class>
 			<class name="com.demoproject.tests.LoginPageTest"></class> 
-			<class name="com.demoproject.tests.M2FE_AccountCreation_Test"></class> 		
-			<class name="com.demoproject.tests.M2Admin_OrderCreation_Test"></class> --> 
+			<class name="com.demoproject.tests.M2FE_AccountCreation_Test"></class> 	--> 	
+			<class name="com.demoproject.tests.M2Admin_OrderCreation_Test"></class> 
 			<class name="com.demoproject.tests.JDE_OrderVerification_Test"></class> 
 	
 		</classes>
