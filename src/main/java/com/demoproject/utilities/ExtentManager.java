@@ -36,7 +36,7 @@ public class ExtentManager {
 			String reportPath = System.getProperty("user.dir")+"/src/test/resources/ExtentReport/ExtentReport" + "_" + timeStamp + ".html";
 			ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
 			spark.config().setReportName("Automation Test Report");
-			spark.config().setDocumentTitle("OrangeHRM Report");
+			spark.config().setDocumentTitle("Nestle Automation Report");
 			spark.config().setTheme(Theme.DARK);
 			
 			extent = new ExtentReports();
