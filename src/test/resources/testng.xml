@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NestleAutomationuite" parallel="classes" thread-count="5">
+<listeners>
+	<listener class-name="com.demoproject.listeners.TestListener"></listener>
+</listeners>
+	<test name="NestleTests">
+		<classes>
+			<!-- <class name="com.demoproject.tests.DummyClass"></class>
+			<class name="com.demoproject.tests.DummyClass2"></class>
+			<class name="com.demoproject.tests.LoginPageTest"></class> 
+			<class name="com.demoproject.tests.M2FE_AccountCreation_Test"></class> 		
+			<class name="com.demoproject.tests.M2Admin_OrderCreation_Test"></class> --> 
+			<class name="com.demoproject.tests.JDE_OrderVerification_Test"></class> 
+	
+		</classes>
+	</test>
+</suite>
